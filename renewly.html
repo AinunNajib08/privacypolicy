@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="html-title">Kebijakan Privasi - Renewly: Subscription Tracker</title>
+  <meta name="description" content="Kebijakan Privasi / Privacy Policy untuk aplikasi Android Renewly - Subscription Tracker (com.renewly.subscriptiontracker).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #FF5A5F;
+      --primary-dark: #E0484D;
+      --primary-light: #FFEBEB;
+      --accent-blue: #38BDF8;
+      --accent-amber: #F59E0B;
+      --accent-green: #10B981;
+      --bg: #0B0E14;
+      --card-bg: #151922;
+      --card-border: #232B3A;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --text-sub: #CBD5E1;
+      --badge-bg: #1E293B;
+      --code-bg: #0F172A;
+      --table-header: #1E293B;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 0;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    /* Header & Hero */
+    header {
+      text-align: center;
+      margin-bottom: 36px;
+      position: relative;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 90, 95, 0.12);
+      border: 1px solid rgba(255, 90, 95, 0.3);
+      color: #FF7074;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .app-badge svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #CBD5E1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .meta-info {
+      color: var(--text-muted);
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .meta-info span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Language Switcher */
+    .lang-switcher {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 24px 0 32px;
+    }
+
+    .lang-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .lang-btn:hover {
+      border-color: var(--primary);
+      color: var(--text-main);
+    }
+
+    .lang-btn.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #FFFFFF;
+      font-weight: 700;
+      box-shadow: 0 4px 14px rgba(255, 90, 95, 0.35);
+    }
+
+    /* Highlights Banner */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+
+    .highlight-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .highlight-card:hover {
+      border-color: rgba(255, 90, 95, 0.5);
+      transform: translateY(-2px);
+    }
+
+    .highlight-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+
+    .icon-coral { background: rgba(255, 90, 95, 0.15); color: #FF5A5F; }
+    .icon-blue { background: rgba(56, 189, 248, 0.15); color: #38BDF8; }
+    .icon-green { background: rgba(16, 185, 129, 0.15); color: #10B981; }
+
+    .highlight-card h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--text-main);
+    }
+
+    .highlight-card p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Content Sections */
+    .content-box {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .section-num {
+      background: rgba(255, 90, 95, 0.15);
+      color: var(--primary);
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #F1F5F9;
+      margin: 20px 0 10px;
+    }
+
+    p {
+      color: var(--text-sub);
+      font-size: 14.5px;
+      margin-bottom: 14px;
+    }
+
+    ul, ol {
+      margin-bottom: 16px;
+      padding-left: 20px;
+    }
+
+    li {
+      color: var(--text-sub);
+      font-size: 14.5px;
+      margin-bottom: 8px;
+    }
+
+    li strong {
+      color: #FFFFFF;
+    }
+
+    /* Table */
+    .table-container {
+      overflow-x: auto;
+      margin: 16px 0 20px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--card-border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 13.5px;
+    }
+
+    th {
+      background: var(--table-header);
+      color: #FFFFFF;
+      font-weight: 600;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--card-border);
+      color: var(--text-sub);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    code {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--code-bg);
+      color: #38BDF8;
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-size: 12.5px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .notice-box {
+      background: rgba(255, 90, 95, 0.08);
+      border: 1px solid rgba(255, 90, 95, 0.25);
+      border-left: 4px solid var(--primary);
+      border-radius: var(--radius-sm);
+      padding: 16px;
+      margin: 16px 0;
+    }
+
+    .notice-box p {
+      margin-bottom: 0;
+      color: #F8FAFC;
+      font-size: 14px;
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background: linear-gradient(135deg, rgba(255, 90, 95, 0.1) 0%, rgba(21, 25, 34, 0.95) 100%);
+      border: 1px solid rgba(255, 90, 95, 0.3);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      margin-top: 32px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+
+    .contact-item {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 14px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 13.5px;
+    }
+
+    .contact-item span {
+      display: block;
+      color: var(--text-muted);
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .contact-item a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <header>
+    <div class="app-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>
+      Renewly - Subscription Tracker
+    </div>
+    <h1 id="page-title">Kebijakan Privasi</h1>
+    <div class="meta-info">
+      <span>📅 Terakhir Diperbarui: 10 Oktober 2026</span>
+      <span>📦 <code>com.renewly.subscriptiontracker</code></span>
+      <span>🛡️ 100% Offline-First</span>
+    </div>
+
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+      <button class="lang-btn active" id="btn-id" onclick="setLanguage('id')">
+        🇮🇩 Bahasa Indonesia
+      </button>
+      <button class="lang-btn" id="btn-en" onclick="setLanguage('en')">
+        🇺🇸 English
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- INDONESIAN CONTENT (content-id)                         -->
+  <!-- ======================================================== -->
+  <div id="content-id">
+
+    <!-- Highlights -->
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon icon-coral">🔒</div>
+        <h3>100% On-Device</h3>
+        <p>Seluruh data langganan dan nominal disimpan lokal di SQLite perangkat Anda. Tidak ada server eksternal milik kami.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon icon-blue">🚫</div>
+        <h3>Tanpa Akun & Tanpa Bank</h3>
+        <p>Tidak perlu registrasi, email, atau login. Kami tidak pernah meminta atau menghubungkan rekening bank/kartu kredit.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon icon-green">🛡️</div>
+        <h3>Iklan & Billing Transparan</h3>
+        <p>Iklan AdMob dilengkapi persetujuan UMP (GDPR). Pembelian lisensi bebas iklan diproses 100% aman oleh Google Play.</p>
+      </div>
+    </div>
+
+    <!-- Section 1 -->
+    <div class="content-box">
+      <h2><span class="section-num">1</span> Pengantar & Prinsip Privasi</h2>
+      <p>
+        <strong>Nadirah Labs</strong> ("kami") menghormati hak privasi Anda sepenuhnya. Aplikasi <strong>Renewly - Subscription Tracker</strong> (ID Paket: <code>com.renewly.subscriptiontracker</code>, selanjutnya disebut "Aplikasi") dirancang dengan arsitektur <em>privacy-by-design</em> dan <em>offline-first</em>.
+      </p>
+      <p>
+        Kebijakan Privasi ini menjelaskan bagaimana informasi dikelola saat Anda mengunduh, menginstal, dan menggunakan Aplikasi. Dengan menggunakan Aplikasi, Anda menyetujui ketentuan yang tertuang dalam kebijakan ini.
+      </p>
+      <div class="notice-box">
+        <p><strong>Komitmen Utama Kami:</strong> Data pengeluaran dan langganan Anda adalah rahasia pribadi Anda. Kami tidak mengumpulkan, tidak menjual, dan tidak mentransfer catatan finansial Anda ke server kami.</p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="content-box">
+      <h2><span class="section-num">2</span> Data yang Disimpan Secara Lokal di Perangkat</h2>
+      <p>Semua informasi yang Anda masukkan ke dalam Aplikasi disimpan secara eksklusif di dalam memori terisolasi (sandbox) perangkat Android Anda (database SQLite lokal dan SharedPreferences):</p>
+      <ul>
+        <li><strong>Data Langganan:</strong> Nama layanan (Netflix, Spotify, gym, dll.), nominal biaya (dalam satuan terkecil/sen), kode mata uang (USD, IDR, dll.), siklus penagihan (harian, mingguan, bulanan, tahunan), tanggal tagihan pertama/trial berakhir, status (Active, Trial, Paused, Cancelled), kategori, dan catatan opsional.</li>
+        <li><strong>Riwayat Perubahan Harga:</strong> Log tanggal dan nilai harga langganan untuk menghitung total pengeluaran historis yang sudah dibayarkan.</li>
+        <li><strong>Pengaturan Pengguna:</strong> Pilihan mata uang dasar (*base currency*), jam pengingat harian, jeda hari pengingat default (*lead days*), preferensi tema (Light/Dark mode), dan status onboarding.</li>
+      </ul>
+      <p>
+        Data di atas <strong>tidak pernah dikirim ke pihak mana pun</strong> dan hanya dapat diakses melalui Aplikasi di perangkat fisik Anda.
+      </p>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="content-box">
+      <h2><span class="section-num">3</span> Layanan Pihak Ketiga & Jaringan</h2>
+      <p>Akses internet pada Aplikasi dibatasi secara ketat hanya untuk layanan platform resmi Google:</p>
+      
+      <h3>A. Google Mobile Ads (AdMob) & User Messaging Platform (UMP)</h3>
+      <p>
+        Pada versi gratis, Aplikasi menampilkan iklan banner dan interstitial melalui Google AdMob untuk mendukung keberlanjutan pengembangan.
+      </p>
+      <ul>
+        <li>Google AdMob dapat mengumpulkan pengidentifikasi perangkat anonim (seperti Android Advertising ID), data performa, dan lokasi umum (tingkat negara/kota) untuk penayangan iklan.</li>
+        <li>Untuk pengguna di wilayah Area Ekonomi Eropa (EEA) dan Inggris Raya (UK), Aplikasi menerapkan Google User Messaging Platform (UMP) SDK untuk meminta dan mengelola persetujuan izin privasi (GDPR).</li>
+        <li>Anda dapat mengatur ulang (*reset*) persetujuan iklan kapan saja melalui menu: <strong>Settings &gt; Privacy &amp; Consent &gt; Reset Ad Consent (UMP)</strong>.</li>
+        <li>Kebijakan Privasi Google dapat dibaca di: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.</li>
+      </ul>
+
+      <h3>B. Google Play Billing</h3>
+      <p>
+        Jika Anda memilih untuk membeli versi <em>Renewly Pro</em> (pembelian sekali bayar untuk menghapus iklan secara permanen), seluruh proses pembayaran diproses secara langsung dan aman oleh Google Play Billing.
+      </p>
+      <ul>
+        <li>Kami tidak pernah menerima, melihat, atau menyimpan nomor kartu kredit atau detail perbankan Anda.</li>
+        <li>Google Play hanya meneruskan token lisensi terenkripsi untuk mengonfirmasi status pembelian Anda.</li>
+      </ul>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="content-box">
+      <h2><span class="section-num">4</span> Izin Perangkat Android yang Digunakan</h2>
+      <p>Aplikasi hanya meminta izin sistem Android minimum yang diperlukan untuk menjalankan fitur-fiturnya:</p>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Nama Izin</th>
+              <th>Tujuan Penggunaan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>POST_NOTIFICATIONS</code></td>
+              <td>Wajib pada Android 13+ untuk menampilkan notifikasi pengingat sebelum tagihan atau masa trial berakhir.</td>
+            </tr>
+            <tr>
+              <td><code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code></td>
+              <td>Menjadwalkan alarm lokal tepat waktu sesuai jam pengingat harian yang Anda atur, bahkan saat perangkat dalam kondisi *Doze/idle*.</td>
+            </tr>
+            <tr>
+              <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+              <td>Menjadwalkan ulang pengingat notifikasi lokal secara otomatis saat perangkat selesai dihidupkan ulang (*reboot*).</td>
+            </tr>
+            <tr>
+              <td><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code></td>
+              <td>Digunakan khusus oleh SDK Google AdMob dan Google Play Billing.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="content-box">
+      <h2><span class="section-num">5</span> Retensi &amp; Penghapusan Data</h2>
+      <p>Karena seluruh data disimpan di perangkat lokal, Anda memegang kendali 100%:</p>
+      <ul>
+        <li>Anda dapat mengedit atau menghapus langganan individual kapan saja langsung di dalam Aplikasi (dengan opsi Undo).</li>
+        <li>Untuk menghapus seluruh data secara permanen, Anda dapat memilih menu <strong>Pengaturan Android &gt; Aplikasi &gt; Renewly &gt; Hapus Data (Clear Storage)</strong>, atau cukup mencopot pemasangan (*uninstall*) Aplikasi. Seluruh database lokal akan langsung dihapus oleh sistem Android.</li>
+      </ul>
+    </div>
+
+    <!-- Section 6 -->
+    <div class="content-box">
+      <h2><span class="section-num">6</span> Privasi Anak (COPPA Compliance)</h2>
+      <p>
+        Aplikasi tidak ditujukan untuk anak-anak di bawah usia 13 tahun (atau 16 tahun di Uni Eropa). Kami tidak pernah secara sadar meminta atau mengumpulkan data pribadi dari anak-anak di bawah umur.
+      </p>
+    </div>
+
+    <!-- Section 7 -->
+    <div class="content-box">
+      <h2><span class="section-num">7</span> Kepatuhan Regulasi Global (GDPR, CCPA, PIPEDA)</h2>
+      <p>
+        Bagi pengguna di Uni Eropa (GDPR), California AS (CCPA/CPRA), dan Kanada (PIPEDA): Karena Aplikasi tidak mentransmisikan data langganan Anda ke luar perangkat, hak privasi Anda (*Right to Privacy by Design*) terpenuhi secara alami. Kami tidak menjual (*do not sell*) data pribadi Anda ke broker data pihak ketiga mana pun.
+      </p>
+    </div>
+
+    <!-- Section 8 -->
+    <div class="content-box">
+      <h2><span class="section-num">8</span> Perubahan Kebijakan Privasi</h2>
+      <p>
+        Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu jika terdapat pembaruan fitur atau ketentuan hukum. Setiap pembaruan akan langsung dicantumkan pada halaman ini dengan tanggal "Terakhir Diperbarui" yang disesuaikan.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-card">
+      <h2 style="margin-bottom: 8px;">📬 Hubungi Kami</h2>
+      <p style="margin-bottom: 12px; color: var(--text-main);">
+        Jika Anda memiliki pertanyaan, masukan, atau kendala terkait Kebijakan Privasi ini, silakan hubungi kami melalui:
+      </p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span>Pengembang:</span>
+          <strong>Nadirah Labs</strong>
+        </div>
+        <div class="contact-item">
+          <span>Email Dukungan:</span>
+          <a href="mailto:ainun.najib@indomaret.co.id">ainun.najib@indomaret.co.id</a>
+        </div>
+        <div class="contact-item">
+          <span>Lokasi:</span>
+          Jakarta, Indonesia
+        </div>
+        <div class="contact-item">
+          <span>Aplikasi:</span>
+          <code>com.renewly.subscriptiontracker</code>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- ENGLISH CONTENT (content-en)                            -->
+  <!-- ======================================================== -->
+  <div id="content-en" style="display: none;">
+
+    <!-- Highlights -->
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <div class="highlight-icon icon-coral">🔒</div>
+        <h3>100% On-Device</h3>
+        <p>All subscription records, prices, and dates are stored locally in your device's SQLite database. Zero external servers.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon icon-blue">🚫</div>
+        <h3>No Accounts & No Bank Linking</h3>
+        <p>No registration, passwords, or emails required. We never request or link to your bank accounts or credit cards.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon icon-green">🛡️</div>
+        <h3>Transparent Ads & Billing</h3>
+        <p>AdMob ads include Google UMP consent for GDPR compliance. Ad-free license purchases are processed 100% securely by Google Play.</p>
+      </div>
+    </div>
+
+    <!-- Section 1 -->
+    <div class="content-box">
+      <h2><span class="section-num">1</span> Introduction & Core Privacy Principles</h2>
+      <p>
+        <strong>Nadirah Labs</strong> ("we", "our", or "us") is committed to protecting your privacy. The <strong>Renewly - Subscription Tracker</strong> mobile application (Package ID: <code>com.renewly.subscriptiontracker</code>, hereinafter referred to as the "Application") was engineered with a <em>privacy-by-design</em>, <em>offline-first</em> foundation.
+      </p>
+      <p>
+        This Privacy Policy explains how information is handled when you download, install, and use the Application. By using the Application, you agree to the collection and handling of information in accordance with this policy.
+      </p>
+      <div class="notice-box">
+        <p><strong>Our Core Promise:</strong> What you spend and which services you use is your private personal information. We do not collect, upload, analyze, or sell your financial subscription records.</p>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="content-box">
+      <h2><span class="section-num">2</span> Information Stored Locally on Your Device</h2>
+      <p>All data entered by you into the Application is stored exclusively within your Android device's isolated application sandbox (local SQLite database and SharedPreferences):</p>
+      <ul>
+        <li><strong>Subscription Records:</strong> Service name (Netflix, Spotify, gym, etc.), cost amount (in minor units/cents), currency code (USD, GBP, CAD, etc.), billing cycle (daily, weekly, monthly, yearly), first bill date or trial expiration date, status (Active, Trial, Paused, Cancelled), category, and personal notes.</li>
+        <li><strong>Price Change History:</strong> Timestamped records of past price modifications used to calculate total historical spend.</li>
+        <li><strong>User Preferences:</strong> Base display currency, daily reminder time, default notification lead days, theme mode (Light/Dark), and onboarding status.</li>
+      </ul>
+      <p>
+        This data <strong>never leaves your device</strong> and can only be accessed by opening the Application on your physical phone.
+      </p>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="content-box">
+      <h2><span class="section-num">3</span> Third-Party Services & Network Usage</h2>
+      <p>Network access in the Application is strictly restricted to official Google platform services:</p>
+      
+      <h3>A. Google Mobile Ads (AdMob) & User Messaging Platform (UMP)</h3>
+      <p>
+        In the free tier of the Application, Google AdMob displays banner and interstitial advertisements to support ongoing development.
+      </p>
+      <ul>
+        <li>Google AdMob may collect and process anonymous device identifiers (such as the Android Advertising ID), diagnostic performance data, and coarse geographic location (country/city level).</li>
+        <li>For users located in the European Economic Area (EEA) and the UK, we implement Google's User Messaging Platform (UMP) SDK to collect and manage explicit consent under GDPR.</li>
+        <li>You can reset or withdraw your ad consent choices at any time via: <strong>Settings &gt; Privacy &amp; Consent &gt; Reset Ad Consent (UMP)</strong>.</li>
+        <li>Google's Privacy Policy is available at: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.</li>
+      </ul>
+
+      <h3>B. Google Play Billing</h3>
+      <p>
+        If you purchase the <em>Renewly Pro</em> lifetime upgrade (a one-time in-app purchase to remove all ads), the financial transaction is handled entirely and securely by Google Play.
+      </p>
+      <ul>
+        <li>We never receive, process, or store your credit card credentials, billing address, or payment details.</li>
+        <li>Google Play communicates an encrypted license token solely to unlock the ad-free experience.</li>
+      </ul>
+    </div>
+
+    <!-- Section 4 -->
+    <div class="content-box">
+      <h2><span class="section-num">4</span> Android Device Permissions Requested</h2>
+      <p>The Application requests only the minimal system permissions required to deliver its core tracking and reminder capabilities:</p>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Permission Name</th>
+              <th>Operational Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>POST_NOTIFICATIONS</code></td>
+              <td>Required on Android 13+ to deliver your scheduled bill renewal and trial expiration alerts.</td>
+            </tr>
+            <tr>
+              <td><code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code></td>
+              <td>Enables the local alarm scheduler to trigger reminders precisely at your chosen notification hour, even during device Doze/idle states.</td>
+            </tr>
+            <tr>
+              <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+              <td>Automatically reschedules your local notification timers whenever your phone finishes restarting.</td>
+            </tr>
+            <tr>
+              <td><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code></td>
+              <td>Used exclusively by Google AdMob and Google Play Billing.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+    <div class="content-box">
+      <h2><span class="section-num">5</span> Data Retention & Deletion</h2>
+      <p>Because all records reside locally on your physical phone, you retain full ownership and control:</p>
+      <ul>
+        <li>You can modify or delete individual subscriptions anytime within the app (with instant Undo support).</li>
+        <li>To delete all data permanently, simply navigate to <strong>Android Settings &gt; Apps &gt; Renewly &gt; Clear Storage</strong>, or uninstall the Application. All local SQLite tables are permanently eradicated by the Android OS.</li>
+      </ul>
+    </div>
+
+    <!-- Section 6 -->
+    <div class="content-box">
+      <h2><span class="section-num">6</span> Children's Privacy (COPPA Compliance)</h2>
+      <p>
+        The Application is not directed toward children under 13 (or under 16 in the European Union). We do not knowingly solicit or collect personally identifiable information from children.
+      </p>
+    </div>
+
+    <!-- Section 7 -->
+    <div class="content-box">
+      <h2><span class="section-num">7</span> Global Compliance (GDPR, CCPA/CPRA, PIPEDA)</h2>
+      <p>
+        For residents of the European Union (GDPR), California, USA (CCPA/CPRA), Canada (PIPEDA), and Australia: Because your subscription records are stored entirely on-device and never transmitted to our servers, your privacy rights (*Right to Access, Erasure, and Privacy by Design*) are fully maintained. We do not sell, rent, or trade your personal information.
+      </p>
+    </div>
+
+    <!-- Section 8 -->
+    <div class="content-box">
+      <h2><span class="section-num">8</span> Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time to reflect product improvements or regulatory updates. Any modifications will be posted immediately on this page with an updated "Last Updated" date.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-card">
+      <h2 style="margin-bottom: 8px;">📬 Contact Us</h2>
+      <p style="margin-bottom: 12px; color: var(--text-main);">
+        If you have questions, suggestions, or concerns regarding this Privacy Policy, please contact us at:
+      </p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span>Developer:</span>
+          <strong>Nadirah Labs</strong>
+        </div>
+        <div class="contact-item">
+          <span>Support Email:</span>
+          <a href="mailto:ainun.najib@indomaret.co.id">ainun.najib@indomaret.co.id</a>
+        </div>
+        <div class="contact-item">
+          <span>Location:</span>
+          Jakarta, Indonesia
+        </div>
+        <div class="contact-item">
+          <span>Application ID:</span>
+          <code>com.renewly.subscriptiontracker</code>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Renewly - Subscription Tracker. Developed by Nadirah Labs. All rights reserved.</p>
+    <p style="margin-top: 6px; font-size: 12px; color: #64748B;">
+      Package: <code>com.renewly.subscriptiontracker</code> &bull; Google Play Developer Policy Compliant
+    </p>
+  </footer>
+</div>
+
+<script>
+  function setLanguage(lang) {
+    const idContent = document.getElementById('content-id');
+    const enContent = document.getElementById('content-en');
+    const btnId = document.getElementById('btn-id');
+    const btnEn = document.getElementById('btn-en');
+    const pageTitle = document.getElementById('page-title');
+    const htmlTitle = document.getElementById('html-title');
+
+    if (lang === 'en') {
+      idContent.style.display = 'none';
+      enContent.style.display = 'block';
+      btnId.classList.remove('active');
+      btnEn.classList.add('active');
+      pageTitle.textContent = 'Privacy Policy';
+      htmlTitle.textContent = 'Privacy Policy - Renewly: Subscription Tracker';
+      document.documentElement.lang = 'en';
+    } else {
+      idContent.style.display = 'block';
+      enContent.style.display = 'none';
+      btnEn.classList.remove('active');
+      btnId.classList.add('active');
+      pageTitle.textContent = 'Kebijakan Privasi';
+      htmlTitle.textContent = 'Kebijakan Privasi - Renewly: Subscription Tracker';
+      document.documentElement.lang = 'id';
+    }
+  }
+
+  (function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const langParam = urlParams.get('lang');
+    if (langParam === 'en') {
+      setLanguage('en');
+    } else if (langParam === 'id') {
+      setLanguage('id');
+    }
+  })();
+</script>
+
+</body>
+</html>
