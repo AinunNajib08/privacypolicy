@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebijakan Privasi - Hair Studio: AI Hairstyle Try On</title>
+  <meta name="description" content="Kebijakan Privasi / Privacy Policy untuk aplikasi Android Hair Studio: AI Hairstyle Try On (com.nadirah.hairstyleai) oleh Nadirah Labs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #F59E0B;
+      --primary-dark: #D97706;
+      --primary-light: #FEF3C7;
+      --accent-gold: #FBBF24;
+      --accent-emerald: #10B981;
+      --accent-cyan: #06B6D4;
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --card-border: #334155;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --text-sub: #CBD5E1;
+      --badge-bg: #1E293B;
+      --code-bg: #0F172A;
+      --table-header: #334155;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.65;
+      padding: 0;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    /* Header & Hero */
+    header {
+      text-align: center;
+      margin-bottom: 36px;
+      position: relative;
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      color: var(--accent-gold);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .app-badge svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #FFFFFF 0%, #FDE68A 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .meta-info {
+      color: var(--text-muted);
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .meta-info span {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Language Switcher */
+    .lang-switcher {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 24px 0 32px;
+    }
+
+    .lang-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .lang-btn:hover {
+      border-color: var(--primary);
+      color: var(--text-main);
+    }
+
+    .lang-btn.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #0F172A;
+      font-weight: 700;
+    }
+
+    /* Highlight Banner Cards */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .summary-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .summary-card .icon-wrapper {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 4px;
+    }
+
+    .summary-card .icon-wrapper.gold {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent-gold);
+    }
+
+    .summary-card .icon-wrapper.emerald {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-emerald);
+    }
+
+    .summary-card .icon-wrapper.cyan {
+      background: rgba(6, 182, 212, 0.15);
+      color: var(--accent-cyan);
+    }
+
+    .summary-card h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin: 0;
+    }
+
+    .summary-card p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    /* Section Cards */
+    .section-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-md);
+      padding: 28px 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.25);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 12px;
+    }
+
+    .section-num {
+      width: 28px;
+      height: 28px;
+      background: rgba(245, 158, 11, 0.2);
+      color: var(--accent-gold);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin: 0;
+    }
+
+    p {
+      color: var(--text-sub);
+      font-size: 0.95rem;
+      margin-bottom: 14px;
+      text-align: justify;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 14px;
+      color: var(--text-sub);
+      font-size: 0.94rem;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .highlight-box {
+      background: rgba(16, 185, 129, 0.08);
+      border-left: 4px solid var(--accent-emerald);
+      padding: 16px 18px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 16px 0;
+      font-size: 0.92rem;
+      color: var(--text-sub);
+    }
+
+    .highlight-box.gold {
+      background: rgba(245, 158, 11, 0.08);
+      border-left-color: var(--primary);
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin: 16px 0;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--card-border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+
+    th {
+      background-color: var(--table-header);
+      color: var(--text-main);
+      padding: 12px 14px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    td {
+      padding: 12px 14px;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-sub);
+      vertical-align: top;
+    }
+
+    code {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--code-bg);
+      color: #38BDF8;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.82em;
+    }
+
+    .badge-status {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .badge-ephemeral {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .badge-local {
+      background: rgba(6, 182, 212, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+    }
+
+    .badge-secure {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent-gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .contact-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-sm);
+      padding: 16px;
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.92rem;
+      color: var(--text-sub);
+    }
+
+    .contact-row svg {
+      width: 18px;
+      height: 18px;
+      fill: var(--accent-gold);
+      flex-shrink: 0;
+    }
+
+    .contact-row a {
+      color: #38BDF8;
+      text-decoration: none;
+    }
+
+    .contact-row a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--card-border);
+    }
+
+    /* Language display switching */
+    .lang-en { display: none; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="app-badge">
+        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+        <span>Google Play Compliant &bull; Nadirah Labs</span>
+      </div>
+
+      <h1 class="lang-id">Kebijakan Privasi</h1>
+      <h1 class="lang-en">Privacy Policy</h1>
+
+      <div class="meta-info">
+        <span><strong>Aplikasi / App:</strong> Hair Studio: AI Hairstyle Try On</span>
+        <span>&bull;</span>
+        <span><strong>Package:</strong> <code>com.nadirah.hairstyleai</code></span>
+        <span>&bull;</span>
+        <span class="lang-id"><strong>Terakhir Diperbarui:</strong> 21 Oktober 2026</span>
+        <span class="lang-en"><strong>Last Updated:</strong> October 21, 2026</span>
+      </div>
+
+      <!-- Language Switcher -->
+      <div class="lang-switcher">
+        <button id="btn-id" class="lang-btn active" onclick="setLang('id')">🇮🇩 Bahasa Indonesia</button>
+        <button id="btn-en" class="lang-btn" onclick="setLang('en')">🇬🇧 English</button>
+      </div>
+    </header>
+
+    <!-- Key Principles Cards -->
+    <div class="summary-grid">
+      <div class="summary-card">
+        <div class="icon-wrapper emerald">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+        </div>
+        <h3 class="lang-id">Pemrosesan Foto Sementara</h3>
+        <h3 class="lang-en">Ephemeral Image Processing</h3>
+        <p class="lang-id">Foto potret wajah Anda hanya diproses sementara di server terenkripsi untuk simulasi gaya rambut dan langsung dihapus setelah selesai.</p>
+        <p class="lang-en">Your portrait photo is processed ephemerally on encrypted servers solely for hairstyle simulation and deleted immediately afterwards.</p>
+      </div>
+
+      <div class="summary-card">
+        <div class="icon-wrapper gold">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+        </div>
+        <h3 class="lang-id">Bukan Pengenalan Wajah</h3>
+        <h3 class="lang-en">No Biometric Identification</h3>
+        <p class="lang-id">Kami TIDAK mengekstrak data biometrik, geometri pengenalan wajah (facial recognition), atau melacak identitas pribadi Anda.</p>
+        <p class="lang-en">We do NOT extract biometric facial recognition templates, face geometry IDs, or track your real-world identity.</p>
+      </div>
+
+      <div class="summary-card">
+        <div class="icon-wrapper cyan">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+        </div>
+        <h3 class="lang-id">UU PDP & Standar Google Play</h3>
+        <h3 class="lang-en">UU PDP & Play Store Safety</h3>
+        <p class="lang-id">Mematuhi UU Pelindungan Data Pribadi No. 27/2022, GDPR, dan Google Play Developer Distribution Agreement.</p>
+        <p class="lang-en">Strictly compliant with Indonesia PDP Law No. 27/2022, GDPR, and Google Play Developer Program Policies.</p>
+      </div>
+    </div>
+
+    <!-- ==================== INDONESIAN VERSION ==================== -->
+    <div class="lang-id" id="content-id">
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">1</span>
+          <h2>Pendahuluan</h2>
+        </div>
+        <p>
+          Selamat datang di <strong>Hair Studio: AI Hairstyle Try On</strong> ("Aplikasi"), sebuah aplikasi simulasi tata rambut dan konsultasi gaya visual bertenaga kecerdasan buatan (AI) yang dikembangkan oleh <strong>Nadirah Labs</strong> ("Kami").
+        </p>
+        <p>
+          Kami berkomitmen penuh untuk menghormati dan melindungi privasi serta keamanan data pribadi pengguna kami. Kebijakan Privasi ini menjelaskan bagaimana informasi Anda dikumpulkan, diproses, ditransmisikan, dan dilindungi saat Anda menggunakan Aplikasi kami pada platform Android melalui Google Play Store.
+        </p>
+        <div class="highlight-box gold">
+          📋 <strong>Kepatuhan Regulasi:</strong> Dokumen Kebijakan Privasi ini disusun sesuai dengan ketentuan <strong>Undang-Undang Republik Indonesia Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP)</strong>, <em>Google Play Developer Distribution Agreement</em>, <em>Google Play User Data Policy</em>, serta standar perlindungan privasi global (GDPR dan CCPA).
+        </div>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">2</span>
+          <h2>Pemrosesan Foto Wajah & Kebijakan Data Gambar (Face Data Policy)</h2>
+        </div>
+        <p>
+          Untuk menyediakan fitur inti simulasi gaya rambut dan pewarnaan (AI Hairstyle Makeover), Aplikasi memerlukan akses terhadap foto potret atau selfie yang Anda pilih atau ambil. Berikut adalah komitmen tegas kami terkait penanganan foto wajah:
+        </p>
+        <ul>
+          <li>
+            <strong>Tujuan Tunggal Pemrosesan:</strong> Foto potret Anda digunakan <em>semata-mata</em> untuk merender simulasi potongan rambut, tekstur rambut, dan palet warna rambut yang Anda tentukan secara visual.
+          </li>
+          <li>
+            <strong>Enkripsi Selama Transmisi (In-Transit Encryption):</strong> Semua data gambar dikirimkan ke server inferensi AI melalui saluran koneksi terenkripsi menggunakan protokol aman standar industri <strong>HTTPS dengan enkripsi TLS 1.3</strong>.
+          </li>
+          <li>
+            <strong>Pemrosesan Sementara (Ephemeral Processing):</strong> Foto Anda diproses di dalam memori kerja sistem komputasi server hanya selama durasi pembuatan simulasi berlangsung. Setelah simulasi rambut selesai dibuat dan dikembalikan ke perangkat Anda, <strong>file foto asli Anda segera dihapus secara otomatis dan permanen dari server</strong>. Kami tidak menyimpan arsip permanen foto wajah Anda.
+          </li>
+          <li>
+            <strong>Bukan Pengenalan Wajah Biometrik (No Facial Recognition):</strong> Kami <em>tidak pernah</em> mengekstrak data biometrik untuk tujuan identifikasi individu, pemindaian pengenalan wajah (facial recognition), atau pencocokan identitas dengan basis data kependudukan mana pun.
+          </li>
+          <li>
+            <strong>Tanpa Penjualan Data & Tanpa Pelatihan Model Publik:</strong> Foto pengguna <strong>TIDAK PERNAH</strong> dijual, disewakan, dialihkan kepada broker data pihak ketiga, atau digunakan untuk melatih model AI publik tanpa persetujuan eksplisit tertulis dari Anda.
+          </li>
+          <li>
+            <strong>Penyimpanan Lokal Mandiri:</strong> Riwayat hasil simulasi yang Anda simpan melalui fitur <em>Saved Looks</em> tersimpan sepenuhnya di penyimpanan lokal memori perangkat ponsel Anda.
+          </li>
+        </ul>
+        <div class="highlight-box">
+          🔒 <strong>Jaminan Kepemilikan:</strong> Hak cipta dan kepemilikan atas foto yang Anda gunakan tetap 100% milik Anda. Kami tidak memiliki klaim kepemilikan apa pun atas konten gambar yang Anda proses.
+        </div>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">3</span>
+          <h2>Izin Perangkat yang Digunakan (Device Permissions)</h2>
+        </div>
+        <p>Aplikasi meminta izin perangkat berikut hanya saat diperlukan untuk fungsionalitas aplikasi:</p>
+        
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Izin Android</th>
+                <th>Tujuan Penggunaan</th>
+                <th>Sifat Penanganan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>CAMERA</code><br>(<code>android.permission.CAMERA</code>)</td>
+                <td>Mengambil foto selfie/potret wajah secara langsung di dalam aplikasi untuk dicoba gaya rambutnya.</td>
+                <td><span class="badge-status badge-ephemeral">Hanya Saat Diambil Pengguna</span></td>
+              </tr>
+              <tr>
+                <td><code>READ_MEDIA_IMAGES</code> /<br><code>READ_EXTERNAL_STORAGE</code></td>
+                <td>Memungkinkan Anda memilih foto potret yang ada di galeri ponsel melalui pemilih foto Android (Photo Picker).</td>
+                <td><span class="badge-status badge-local">Hanya Foto yang Dipilih</span></td>
+              </tr>
+              <tr>
+                <td><code>INTERNET</code><br>(<code>android.permission.INTERNET</code>)</td>
+                <td>Menghubungkan aplikasi ke engine inferensi AI terenkripsi, memuat konfigurasi katalog gaya rambut, serta verifikasi billing.</td>
+                <td><span class="badge-status badge-secure">Terkoneksi Aman (HTTPS)</span></td>
+              </tr>
+              <tr>
+                <td><code>BILLING</code><br>(<code>com.android.vending.BILLING</code>)</td>
+                <td>Memfasilitasi pembelian langganan digital mingguan (Atelier Pass / Pro) melalui Google Play Billing resmi.</td>
+                <td><span class="badge-status badge-secure">Dikelola Google Play</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">4</span>
+          <h2>Layanan Pihak Ketiga & Monetisasi</h2>
+        </div>
+        <p>Untuk mendukung pemeliharaan infrastruktur server AI dan menyediakan opsi kuota gratis bagi pengguna, Aplikasi mengintegrasikan layanan pihak ketiga berikut:</p>
+        <ul>
+          <li>
+            <strong>Google Mobile Ads (AdMob):</strong> Digunakan untuk menampilkan iklan bersponsor bagi pengguna tier gratis. SDK Google AdMob dapat mengumpulkan identifikasi teknis pseudonim seperti <em>Google Advertising ID (GAID)</em>, informasi perangkat, dan data diagnostik kinerja untuk mencegah kecurangan dan membatasi frekuensi tayang iklan. Untuk informasi selengkapnya, kunjungi <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color: #38BDF8;">Kebijakan Privasi Google</a>.
+          </li>
+          <li>
+            <strong>Google Play In-App Billing:</strong> Seluruh transaksi pembelian langganan premium (Atelier Pass) diproses secara langsung oleh Google melalui sistem pembayaran aman Google Play. Nadirah Labs <em>tidak pernah</em> mengakses, mengumpulkan, atau menyimpan rincian informasi perbankan, kartu kredit, atau kartu debit Anda.
+          </li>
+          <li>
+            <strong>AI Inference Compute Engine:</strong> Pemrosesan gambar dilakukan oleh infrastruktur komputasi awan yang mematuhi protokol keamanan SSL/TLS dan prinsip pemrosesan sementara tanpa retensi data.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">5</span>
+          <h2>Keamanan, Retensi, dan Hak Penghapusan Data (Data Safety & Deletion)</h2>
+        </div>
+        <p>Sesuai dengan pedoman <em>Google Play Data Safety</em> dan UU PDP:</p>
+        <ul>
+          <li><strong>Tanpa Pendaftaran Akun Terbuka:</strong> Aplikasi tidak mengharuskan pembuatan profil publik dengan nama, email, nomor ponsel, atau kata sandi. Pengguna diidentifikasi melalui pengenal pseudonim perangkat lokal.</li>
+          <li><strong>Retensi Data Server Nol Hari:</strong> Foto yang diunggah untuk simulasi langsung dihapus dari memori server setelah inferensi tuntas. Tidak ada foto yang disimpan di server cloud kami.</li>
+          <li><strong>Pembersihan Data Mandiri:</strong> Pengguna dapat menghapus semua data cache, preferensi, dan foto tersimpan lokal kapan saja melalui menu <em>Pengaturan Perangkat &gt; Aplikasi &gt; Hair Studio &gt; Hapus Data / Hapus Cache</em>.</li>
+          <li><strong>Hak Permintaan Penghapusan:</strong> Anda berhak meminta penghapusan identifikasi pseudonim atau riwayat transaksi yang terkait dengan perangkat Anda dengan mengirimkan permohonan melalui email resmi pengembang di bawah ini. Permintaan akan diproses dalam waktu 3x24 jam kerja.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">6</span>
+          <h2>Privasi Anak-Anak (Children's Privacy / COPPA)</h2>
+        </div>
+        <p>
+          Aplikasi ini dirancang untuk khalayak umum dan pengguna berusia <strong>13 tahun ke atas</strong>. Kami tidak secara sengaja mengumpulkan atau meminta informasi data pribadi dari anak-anak di bawah usia 13 tahun. Jika kami mengetahui bahwa data pribadi dari anak di bawah 13 tahun telah dikumpulkan tanpa izin orang tua, kami akan segera mengambil tindakan untuk menghapus data tersebut.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">7</span>
+          <h2>Perubahan pada Kebijakan Privasi</h2>
+        </div>
+        <p>
+          Kami dapat memperbarui Kebijakan Privasi ini secara berkala untuk mencerminkan peningkatan fitur, perubahan regulasi, atau persyaratan kebijakan Google Play. Tanggal revisi terbaru akan selalu dicantumkan di bagian atas halaman ini. Kami menyarankan Anda untuk meninjau halaman ini secara berkala.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">8</span>
+          <h2>Kontak Pengembang (Developer Contact)</h2>
+        </div>
+        <p>
+          Jika Anda memiliki pertanyaan, klarifikasi, atau permintaan terkait Kebijakan Privasi dan keamanan data Anda, silakan hubungi tim kami:
+        </p>
+        <div class="contact-box">
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+            <span><strong>Pengembang:</strong> Nadirah Labs</span>
+          </div>
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <span><strong>Email Dukungan:</strong> <a href="mailto:nadirahlabs@gmail.com">nadirahlabs@gmail.com</a> / <a href="mailto:ainun.najib@indomaret.co.id">ainun.najib@indomaret.co.id</a></span>
+          </div>
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span><strong>Aplikasi:</strong> Hair Studio: AI Hairstyle Try On (<code>com.nadirah.hairstyleai</code>)</span>
+          </div>
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>
+            <span><strong>Pusat Kebijakan:</strong> <a href="https://ainunnajib08.github.io/privacypolicy/" target="_blank" rel="noopener">https://ainunnajib08.github.io/privacypolicy/</a></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ==================== ENGLISH VERSION ==================== -->
+    <div class="lang-en" id="content-en">
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">1</span>
+          <h2>Introduction</h2>
+        </div>
+        <p>
+          Welcome to <strong>Hair Studio: AI Hairstyle Try On</strong> ("the Application"), an artificial intelligence powered visual styling and hair makeover consultation app developed by <strong>Nadirah Labs</strong> ("we", "us", or "our").
+        </p>
+        <p>
+          We are deeply committed to respecting and protecting the privacy and security of your personal data. This Privacy Policy details how your information is collected, processed, transmitted, and protected when you use our Application on Android devices distributed via the Google Play Store.
+        </p>
+        <div class="highlight-box gold">
+          📋 <strong>Regulatory Compliance:</strong> This Privacy Policy adheres strictly to the <strong>Google Play Developer Distribution Agreement</strong>, <em>Google Play User Data Policies</em>, <em>Google Play AI-Generated Content Guidelines</em>, Indonesian Personal Data Protection Law (UU PDP No. 27/2022), GDPR, and CCPA standards.
+        </div>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">2</span>
+          <h2>Face Data & Photo Processing Policy (Google Play Compliant)</h2>
+        </div>
+        <p>
+          To deliver the core functionality of virtual hairstyle previews and color simulation, the Application requires access to a portrait photo or selfie selected or captured by you. Here is our unequivocal commitment regarding the handling of your face data and images:
+        </p>
+        <ul>
+          <li>
+            <strong>Strict Single Purpose:</strong> Your portrait image is used <em>solely</em> to render the simulated hairstyles, haircuts, and hair colors requested by you.
+          </li>
+          <li>
+            <strong>End-to-End Encryption in Transit:</strong> All image data is transmitted to our AI inference processing engine via secure, encrypted channels utilizing industry-standard <strong>HTTPS with TLS 1.3 encryption</strong>.
+          </li>
+          <li>
+            <strong>Ephemeral Processing (Zero Server Retention):</strong> Your image is processed in the volatile memory of our server clusters only for the duration required to compute the hairstyle transformation. Once the rendered preview image is returned to your device, <strong>your uploaded photo is immediately, automatically, and permanently erased from the server</strong>. We maintain zero permanent archives of your facial photographs.
+          </li>
+          <li>
+            <strong>No Biometric Identification:</strong> We do <em>not</em> extract biometric identifiers, facial geometry templates, or identity markers for facial recognition, personal identification, or facial tracking.
+          </li>
+          <li>
+            <strong>No Data Selling & No Public Model Training:</strong> User photos are <strong>NEVER</strong> sold, rented, leased, disclosed to third-party data brokers, or used to train general public artificial intelligence models without your explicit informed consent.
+          </li>
+          <li>
+            <strong>Client-Side Local Storage:</strong> Generated looks saved via the <em>Saved Looks</em> gallery remain stored exclusively within your phone's private local sandboxed app storage.
+          </li>
+        </ul>
+        <div class="highlight-box">
+          🔒 <strong>Ownership Guarantee:</strong> You retain 100% intellectual property rights and full ownership over your personal photographs. We claim no ownership rights over any user-provided imagery.
+        </div>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">3</span>
+          <h2>Sensitive Device Permissions</h2>
+        </div>
+        <p>The Application requests the following Android permissions strictly when needed to enable app functionality:</p>
+        
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Android Permission</th>
+                <th>Core Purpose</th>
+                <th>Data Handling</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>CAMERA</code><br>(<code>android.permission.CAMERA</code>)</td>
+                <td>Allows you to capture a live selfie directly within the app to try on different haircuts.</td>
+                <td><span class="badge-status badge-ephemeral">Only Upon User Capture</span></td>
+              </tr>
+              <tr>
+                <td><code>READ_MEDIA_IMAGES</code> /<br><code>READ_EXTERNAL_STORAGE</code></td>
+                <td>Allows you to pick existing portrait photos from your device gallery using the Android system Photo Picker.</td>
+                <td><span class="badge-status badge-local">Only User-Selected Photos</span></td>
+              </tr>
+              <tr>
+                <td><code>INTERNET</code><br>(<code>android.permission.INTERNET</code>)</td>
+                <td>Connects securely to the cloud AI generation engine, loads style catalogs, and validates Google Play subscriptions.</td>
+                <td><span class="badge-status badge-secure">Encrypted HTTPS (TLS 1.3)</span></td>
+              </tr>
+              <tr>
+                <td><code>BILLING</code><br>(<code>com.android.vending.BILLING</code>)</td>
+                <td>Enables in-app digital subscriptions (Atelier Pass / Pro Access) via official Google Play Billing services.</td>
+                <td><span class="badge-status badge-secure">Managed by Google Play</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">4</span>
+          <h2>Third-Party Services & Monetization</h2>
+        </div>
+        <p>To support high-performance AI GPU infrastructure and provide free usage tiers to users, the Application integrates standard third-party services:</p>
+        <ul>
+          <li>
+            <strong>Google Mobile Ads (AdMob):</strong> Displays occasional rewarded and interstitial ads to sponsor free hairstyle trials. The AdMob SDK may collect pseudonymous device telemetry such as the <em>Google Advertising ID (GAID)</em>, crash diagnostics, and coarse device specs to prevent ad fraud and frequency cap advertisements. For more info, review the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" style="color: #38BDF8;">Google Privacy Policy</a>.
+          </li>
+          <li>
+            <strong>Google Play In-App Billing:</strong> All premium subscriptions (Atelier Pass weekly pass with 3-day trial) are processed securely through Google's official payment gateways. Nadirah Labs never sees, collects, or stores your credit card numbers, banking info, or financial credentials.
+          </li>
+          <li>
+            <strong>Secure AI Inference Compute:</strong> Hairstyle image synthesis is executed on secure backend compute clusters that enforce encrypted ephemeral execution without persistent data retention.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">5</span>
+          <h2>Data Safety, Retention, and Deletion Rights</h2>
+        </div>
+        <p>In accordance with <em>Google Play Data Safety Section</em> standards:</p>
+        <ul>
+          <li><strong>No Public Account Requirement:</strong> The Application operates without mandatory social logins or public account registration. Users are identified through anonymous pseudonymous device IDs.</li>
+          <li><strong>Zero-Day Server Retention:</strong> Uploaded images are permanently deleted from server RAM immediately upon completion of generation.</li>
+          <li><strong>Self-Service Data Deletion:</strong> You can completely erase all local application data, cache, and saved looks at any time via <em>Android Settings &gt; Apps &gt; Hair Studio &gt; Storage &gt; Clear Storage / Clear Cache</em>.</li>
+          <li><strong>Right to Request Data Deletion:</strong> You have the right to request the complete deletion of any pseudonymous device identifiers or support logs associated with your app installation by contacting our developer email below. Requests are executed within 3 business days.</li>
+        </ul>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">6</span>
+          <h2>Children's Privacy (COPPA Compliance)</h2>
+        </div>
+        <p>
+          Our Application is intended for general audiences and individuals aged <strong>13 years and older</strong>. We do not knowingly solicit or collect personal identifiable information from children under 13. If you believe that a child under 13 has provided personal information to us, please notify us immediately for immediate investigation and deletion.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">7</span>
+          <h2>Policy Updates</h2>
+        </div>
+        <p>
+          We may update this Privacy Policy from time to time to accommodate evolving features, legal requirements, or Google Play policy updates. The latest effective date will always be visible at the top of this document. Continued use of the Application signifies acceptance of any updated terms.
+        </p>
+      </div>
+
+      <div class="section-card">
+        <div class="section-header">
+          <span class="section-num">8</span>
+          <h2>Developer Contact Information</h2>
+        </div>
+        <p>
+          If you have any questions, feedback, or data privacy requests, please feel free to reach out to us:
+        </p>
+        <div class="contact-box">
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+            <span><strong>Developer:</strong> Nadirah Labs</span>
+          </div>
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <span><strong>Support Email:</strong> <a href="mailto:nadirahlabs@gmail.com">nadirahlabs@gmail.com</a> / <a href="mailto:ainun.najib@indomaret.co.id">ainun.najib@indomaret.co.id</a></span>
+          </div>
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span><strong>Application:</strong> Hair Studio: AI Hairstyle Try On (<code>com.nadirah.hairstyleai</code>)</span>
+          </div>
+          <div class="contact-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>
+            <span><strong>Policy Hub:</strong> <a href="https://ainunnajib08.github.io/privacypolicy/" target="_blank" rel="noopener">https://ainunnajib08.github.io/privacypolicy/</a></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      &copy; 2026 Nadirah Labs. All rights reserved. &bull; Hair Studio: AI Hairstyle Try On &bull; <a href="https://github.com/AinunNajib08/privacypolicy" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: none;">GitHub Repository</a>
+    </footer>
+
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang-id').forEach(el => el.style.display = (lang === 'id' ? 'block' : 'none'));
+      document.querySelectorAll('.lang-en').forEach(el => el.style.display = (lang === 'en' ? 'block' : 'none'));
+      
+      document.getElementById('btn-id').classList.toggle('active', lang === 'id');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    }
+  </script>
+
+</body>
+</html>
